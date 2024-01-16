@@ -15,7 +15,7 @@
                 <i class="fas fa-user"></i>
             </div>
             <div class="form">
-                <form class="form">
+                <form class="form" onsubmit="confirmation()">
                     <div class="email border">
                         <label for="email">
                             <i class="fas fa-envelope mix"></i>
@@ -29,10 +29,10 @@
                         </label>
                     </div>
                     <div class="forget">
-                        <a href="#" id="forget">Forget password</a>
+                        <a href="#" id="forget" onclick="forget()">Forget password</a>
                     </div>
                     <div class="btn-div">
-                        <button type="submit" class="btn"><span class="red">S</span>ign <span class="red">U</span>p</button>
+                        <button type="submit" class="btn"><span class="red">S</span>ign <span class="red">i</span>n</button>
                         <button type="reset" class="btn"><span class="red">R</span>eset</button>
                     </div>
                 </form>
@@ -41,15 +41,14 @@
                 <p class="text">or login with</p>
             </div>
             <div class="logo-display">
-                <!-- Your logo links here -->
             </div>
             <div class="signup">
-                <p class="account">Don't have an account? <a href="#" class="sign"><b>Sign up</b></a></p>
+                <p class="account">Don't have an account? <a href="#" class="sign" onclick="signup()"><b>Sign up</b></a></p>
             </div>
         </div>
     </div>
 
-    <script>
+    <script src="script.js">
         alert('Thanks for visiting my login page by author Hritik Sharma');
     </script>
 </body>
