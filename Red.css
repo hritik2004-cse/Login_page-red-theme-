@@ -1,169 +1,199 @@
+/* red.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kdam+Thmor+Pro&family=Marhey:wght@300&family=Montserrat:wght@100&family=Noto+Sans&family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital@1&family=Roboto+Condensed:ital,wght@1,200&family=Roboto:wght@300;400;500;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-:root{
-  --col-1:red;
-  --col-2:white;
+
+:root {
+    --col-1: red;
+    --col-2: white;
 }
-body{
-  background-image: url('Background red.png');
-  background-position:center;
-  background-size: cover;
-  height: 100vh;
-  overflow: hidden;
-  background-repeat: no-repeat;
+
+body {
+    background-image: url('Background red.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
-div.title{
-  text-align:center ;
-  margin: 3vh;
+
+div.title {
+    text-align: center;
+    margin: 3vh;
 }
-h1.login{
-  text-transform: uppercase;
-  font-size: 4vh;
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif;
-  color:var(--col-2);
-  text-shadow: 2px 2px 4px #000,3px 3px 6px #000;
-  opacity: 100%;
+
+h1.login {
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: var(--col-2);
+    text-shadow: 2px 2px 4px #000, 3px 3px 6px #000;
+    opacity: 100%;
 }
-.fa-user{
-  margin: 3vh;
-  border: 0.3vh solid var(--col-2);
-  border-radius: 100%;
-  font-size: 7vh;
-  background-color:var(--col-2);
-  color:var(--col-1);
-  padding: 2vh;
-  filter: drop-shadow(8px 8px 16px #000000);
+
+.fa-user {
+    margin: 3vh;
+    border: 0.3vh solid var(--col-2);
+    border-radius: 100%;
+    font-size: 7vh;
+    background-color: var(--col-2);
+    color: var(--col-1);
+    padding: 2vh;
+    filter: drop-shadow(8px 8px 16px #000000);
 }
-.form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
-.border{
-  margin: 1vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0.2vh solid var(--col-2);
-  padding: 1vh;
-  width: 35vh;
-  border-radius: 5vh;
-  height:6vh;
-  background: var(--col-2);
-  overflow: hidden;
-  box-shadow: 2px 2px 4px #000,3px 3px 6px #000;
+
+.border {
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vh solid var(--col-2);
+    padding: 1vh;
+    width: 35vh;
+    border-radius: 5vh;
+    height: 6vh;
+    background: var(--col-2);
+    overflow: hidden;
+    box-shadow: 2px 2px 4px #000, 3px 3px 6px #000;
 }
-i.mix{
-  float: right;
-  text-align: center;
-  padding: 1vh;
-  border: 0.2vh solid var(--col-1);
-  background: var(--col-1);
-  border-radius: 150vh;
-  font-size: 2vh;
-  color:var(--col-2);
+
+i.mix {
+    float: right;
+    text-align: center;
+    padding: 1vh;
+    border: 0.2vh solid var(--col-1);
+    background: var(--col-1);
+    border-radius: 150vh;
+    font-size: 2vh;
+    color: var(--col-2);
 }
-input{
-  border: 0;
-  outline: none;
-  overflow: hidden;
-  background: transparent;
-  color: var(--col-1);
-  height: 4vh;
-  width: 28vh;
+
+input {
+    border: 0;
+    outline: none;
+    overflow: hidden;
+    background: transparent;
+    color: var(--col-1);
+    height: 4vh;
+    width: 28vh;
 }
-div.btn-div{
-  margin-top: 1vh;
+
+div.btn-div {
+    margin-top: 1vh;
 }
-::placeholder{
-  color: var(--col-1);
-  font-size: 2vh;
+
+::placeholder {
+    color: var(--col-1);
+    font-size: 2vh;
 }
-button{
-  margin: 1vh 4vh;
-  text-align: center;
-  padding: 1.5vh 2vh;
-  text-transform:uppercase;
-  box-shadow: 2px 2px 4px #800,3px 3px 6px #800;
-  border: none;
-  border-radius: 10vh;
-  height: 5vh;
-  width: 10vh;
-  font-weight: bolder;
-  font-size:2vh;
-  background:var(--col-2);
-  color: black;
-  height: 5vh;
-  width:12vh;
-  transition: all 0.5s ease-in-out;
+
+button {
+    margin: 1vh 4vh;
+    text-align: center;
+    padding: 1.5vh 2vh;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 4px #800, 3px 3px 6px #800;
+    border: none;
+    border-radius: 10vh;
+    height: 5vh;
+    width: 10vh;
+    font-weight: bolder;
+    font-size: 2vh;
+    background: var(--col-2);
+    color: black;
+    height: 5vh;
+    width: 12vh;
+    transition: all 0.5s ease-in-out;
 }
-button:is(:hover,:active,:focus){
-  background: black;
-  color: var(--col-2);
+
+button:hover,
+button:active,
+button:focus {
+    background: black;
+    color: var(--col-2);
 }
-div.forget{
-  margin: 3vh;
-  margin-left: 20vh;
+
+div.forget {
+    margin: 3vh;
+    margin-left: 20vh;
 }
- a{
-  text-decoration: none;
-  color:var(--col-2);
-  font-size: 2vh;
-  font-weight: 500;
-  transition: all 1s ease;
+
+a {
+    text-decoration: none;
+    color: var(--col-2);
+    font-size: 2vh;
+    font-weight: 500;
+    transition: all 1s ease;
 }
-a:is(:hover,:active,:focus){
-  text-decoration: underline;
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: underline;
 }
-span.red{
-  color: var(--col-1);
+
+span.red {
+    color: var(--col-1);
 }
-.next{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 8vh;
-  font-size: 2vh;
-  font-weight: 500;
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    font-size: 2vh;
+    font-weight: 500;
 }
-.logo-display{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 8vh;
+
+.logo-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8vh;
 }
-img.img{
-  height: 3vh;
-  width: 3vh;  
+
+img.img {
+    height: 3vh;
+    width: 3vh;
 }
-.img-edit{
-  border-radius: 50%;
+
+.img-edit {
+    border-radius: 50%;
 }
-.logo{
-  border: 0.3vh solid var(--col-1);
-  padding: 1vh;
-  border-radius: 1vh;
-  margin: 0 1vh;
-  
+
+.logo {
+    border: 0.3vh solid var(--col-1);
+    padding: 1vh;
+    border-radius: 1vh;
+    margin: 0 1vh;
 }
-a.link{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+a.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-a.sign{
-  color: black;
+
+a.sign {
+    color: black;
 }
-p.account{
-  text-align: center;
-  font-size: 2vh;
+
+p.account {
+    text-align: center;
+    font-size: 2vh;
 }
